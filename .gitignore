@@ -1,0 +1,23 @@
+# env
+.env
+
+# python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+
+# IDE
+.idea/
+.vscode/
+
+# local package metadata
+*.egg-info/
+
+# Django/media/uploads
+backend/media/
+
+# OS
+.DS_Store
+Thumbs.db

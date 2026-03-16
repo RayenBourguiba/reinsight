@@ -1,0 +1,7 @@
+{
+  "portfolio_id": 1,
+  "rows": [
+    {"lob":"PROPERTY","peril":"FLOOD","country":"FR","tiv":1200000.0,"region":"IDF","premium":12000.0,"policy_id":"POL-0001","location_id":""},
+    {"lob":"PROPERTY","peril":"FLOOD","country":"FR","tiv":800000.0,"region":"NAQ","premium":9000.0,"policy_id":"POL-0002","location_id":""}
+  ]
+}

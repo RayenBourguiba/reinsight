@@ -1,0 +1,19 @@
+{
+  "mapping": {
+    "lob": "LOB",
+    "peril": "PerilType",
+    "country": "CountryCode",
+    "tiv": "TIV_USD",
+    "region": "Region",
+    "premium": "Premium_USD",
+    "policy_id": "PolicyNumber",
+    "lat": "Latitude",
+    "lon": "Longitude",
+    "inception_date": "InceptionDate",
+    "expiry_date": "ExpiryDate"
+  },
+  "options": {
+    "max_rows": 5000,
+    "preview_rows": 20
+  }
+}

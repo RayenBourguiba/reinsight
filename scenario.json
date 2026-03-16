@@ -1,0 +1,9 @@
+{
+  "portfolio_id": 1,
+  "treaty_id": 2,
+  "stresses": [
+    { "name": "FR Flood +20%", "filters": { "country": "FR", "peril": "FLOOD" }, "tiv_factor": 1.2 },
+    { "name": "DE Wind +10%",  "filters": { "country": "DE", "peril": "WIND"  }, "tiv_factor": 1.1 }
+  ],
+  "group_by": "country"
+}
