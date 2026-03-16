@@ -21,10 +21,12 @@ from core.views_scenario import scenario_stress
 from core.views_data_quality import portfolio_data_quality
 from core.views_tools import tools_schema, tools_execute
 from core.views_exposures import bulk_create_exposures, list_exposures, get_exposure
+from django.views.generic.base import RedirectView
 
 urlpatterns = [
     path("admin/", admin.site.urls),
     path("health/", health),
+    path("", RedirectView.as_view(url="/docs/", permanent=False)),
 
     path(
         "schema/",
